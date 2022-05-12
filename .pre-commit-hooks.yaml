@@ -1,0 +1,9 @@
+-   id: tsc
+    name: tsc
+    description: ''
+    entry: tsc
+    language: node
+    types_or: [ts, tsx]
+    args: []
+        additional_dependencies: ["typescript@4.5.5"]
+    minimum_pre_commit_version: '0'
