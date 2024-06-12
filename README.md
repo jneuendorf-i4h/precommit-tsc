@@ -24,3 +24,7 @@ By default, files with extension `.ts` and `.tsx` are passed to `tsc`, if you wa
     -   id: tsc
         types_or: [ts, tsx, jsx]
 ```
+
+### Note
+
+This fork uses tsc-files instead of tsc, which allows this hook to check a js project that is not in the .git folder (which happens in monorepos).
