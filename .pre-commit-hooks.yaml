@@ -1,10 +1,10 @@
 -   id: tsc
     name: tsc
-    description: ''
-    entry: tsc
+    description: 'Compile typescript.'
+    entry: tsc-files
     language: node
     types_or: [ts, tsx]
-    pass_filenames: false
+    pass_filenames: true
     args: [--noEmit]
-    additional_dependencies: ["typescript@4.5.5"]
+    additional_dependencies: ["typescript@4.5.5","tsc-files"]
     minimum_pre_commit_version: '0'
