@@ -13,7 +13,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
   - repo: https://github.com/jneuendorf-i4h/precommit-tsc
-    rev: 'v1.0.0'
+    rev: v5.9
     hooks:
       - id: tsc
 ```
